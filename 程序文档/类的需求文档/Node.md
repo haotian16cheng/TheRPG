@@ -9,16 +9,36 @@
 ## 定义详情
 
 ### 属性
+ 
+- 公有
 
-#### 公有
-
-#### 私有
-
-- 父亲
-- 子列表
+- 私有
+  - Node parent
+  - List(Node) childrenList
+  - Vector2 positon
+  - int order
+  - Vector2 rotation
+  - Vector2 scale
+  - bool enabled
+  - int opacity
 
 ### 方法
 
-#### 公有
+- 公有
+  - T Create()
+  - AddChild(Node)
+  - void Draw()
+  - Vector2 GetPosition()
+  - Vector2 GetWorldPosition()
+  - int GetOrder()
+  - Vector2 GetScale
+  - Vector2 GetRotation()
+  - bool Enabled()
+  - void removeFromParent()
+  - int GetOpacity()
+- 私有
+  - Node GetParent()
+  - void init()
+  - void SortChildrenByOrder()
 
-#### 私有
+  
