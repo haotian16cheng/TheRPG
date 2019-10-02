@@ -6,7 +6,7 @@ rpg游戏中的事件系统，不是指程序中鼠标键盘等事件。是指�
 
 ## 指令
 
-带*号的是目前要实现的
+带*号的是目前要实现的，格式为{"code":x(int),"indent":x(int),"parameters":[](vector)},code指指令对应的事件id，intent表示层级同时也能表示属于哪一个指令，paramenters，则是参数。
 
 - 文字类
   - 显示对话框* showtxt
